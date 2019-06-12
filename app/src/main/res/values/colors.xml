@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00695C</color>
+    <color name="colorPrimaryDark">#004D40</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="yellow">#f1c40f</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="green">#27AE60</color>
+    <color name="light_purple">#E8E1E7</color>
+    <color name="light_green">#50d050</color>
+    <color name="dark_green">#008000</color>
+    <color name="darkPurple">#592E66</color>
+
+    <color name="lightYellow">#ffffb3</color>
+    <color name="mediumYellow">#ffdf80</color>
+    <color name="darkYellow">#ffd24d</color>
+    <color name="lightGrey">#d9d9d9</color>
+    <color name="darkGrey">#a2a2a2</color>
+    <color name="chatlistBG">#d7ccc8</color>
+
+    <!--App intro color-->
+    <color name="color_1">#ad1457</color>
+    <color name="color_2">#6a1b9a</color>
+    <color name="color_3">#283593</color>
+    <color name="color_4">#00695c</color>
+    <color name="color_5">#5d4037</color>
+    <color name="color_6">#37474f</color>
+</resources>

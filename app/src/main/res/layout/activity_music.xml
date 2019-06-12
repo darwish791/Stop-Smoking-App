@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MusicActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/circularImageView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/album_art"
+        app:civ_border_color="@android:color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <yanzhikai.textpath.SyncTextPathView
+        android:id="@+id/SyncTextPathView"
+        android:layout_width="341dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="1"
+        app:duration="12000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circularImageView"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="Terasa ingin merokok?"
+        app:textInCenter="true"
+        app:textSize="24sp" />
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/AsyncTextPathView1"
+        android:layout_width="339dp"
+        android:layout_height="42dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="8dp"
+        app:duration="12000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SyncTextPathView"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="mainkan audio ini,"
+        app:textInCenter="true"
+        app:textSize="24sp" />
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/AsyncTextPathView2"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        app:duration="12000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AsyncTextPathView1"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="pejamkan mata,"
+        app:textInCenter="true"
+        app:textSize="24sp" />
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/AsyncTextPathView3"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        app:duration="12000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AsyncTextPathView2"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="bertenang..."
+        app:textInCenter="true"
+        app:textSize="24sp" />
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/AsyncTextPathView4"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        app:duration="12000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AsyncTextPathView3"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="dan biarkan"
+        app:textInCenter="true"
+        app:textSize="24sp" />
+
+    <yanzhikai.textpath.AsyncTextPathView
+        android:id="@+id/AsyncTextPathView5"
+        android:layout_width="335dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        app:duration="12000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AsyncTextPathView4"
+        app:pathStrokeColor="@color/colorAccent"
+        app:showPainter="true"
+        app:text="keinginan itu hilang :)"
+        app:textInCenter="true"
+        app:textSize="24sp" />
+
+
+    <Button
+        android:id="@+id/play_btn"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@drawable/play_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circularImageView"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <Button
+        android:id="@+id/pause_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/pause_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/play_btn"
+        app:layout_constraintHorizontal_bias="0.471"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/stop_btn"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="48dp"
+        android:background="@drawable/stop_btn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toEndOf="@+id/play_btn" />
+
+
+</android.support.constraint.ConstraintLayout>

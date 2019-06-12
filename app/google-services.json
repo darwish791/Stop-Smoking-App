@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1042357897151",
+    "firebase_url": "https://fyp-4-d35ab.firebaseio.com",
+    "project_id": "fyp-4-d35ab",
+    "storage_bucket": "fyp-4-d35ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1042357897151:android:8651c614026d2138",
+        "android_client_info": {
+          "package_name": "com.darwishashraf.flashchatnewfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1042357897151-s56fvqoqrsvfqd590fst6fgov850kvg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRQD1zTZct7dvuUMbMvXPGusdGnR02Ey0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

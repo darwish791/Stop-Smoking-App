@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KKSriGadingActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/kk_sri_gading_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/text_view_line"
+        android:layout_width="match_parent"
+        android:layout_height="73dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp"
+        app:animationDuration="1000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/kk_sri_gading" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MA Mohd Zarizi Hj Ismail\nSN Farida Mohsin\n07-4558216"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="371dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:text="Alamat\n\nKlinik Kesihatan Sri Gading\nSri Gading,\nBatu Pahat\n83000 Batu Pahat\nJohor"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/kk_sri_gading_maps_btn"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_location_merah" />
+
+</LinearLayout>

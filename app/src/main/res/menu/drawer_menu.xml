@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/info_about_app"
+            android:icon="@drawable/ic_home"
+            android:title="Utama" />
+
+        <item
+            android:id="@+id/komuniti"
+            android:icon="@drawable/ic_komuniti_betul"
+            android:title="Komuniti" />
+
+
+        <item
+            android:id="@+id/music"
+            android:icon="@drawable/ic_music"
+            android:title="Audio" />
+
+        <item
+            android:id="@+id/dapatkan_bantuan"
+            android:icon="@drawable/ic_location"
+            android:title="Dapatkan Bantuan" />
+
+        <item
+            android:id="@+id/diari"
+            android:icon="@drawable/ic_komuniti"
+            android:title="Diari Henti Rokok" />
+
+        <item
+            android:id="@+id/motivasi"
+            android:icon="@drawable/ic_motivasi"
+            android:title="Motivasi" />
+
+        <item
+            android:id="@+id/peringatan"
+            android:icon="@drawable/ic_about_app"
+            android:title="Peringatan" />
+
+    </group>
+</menu>

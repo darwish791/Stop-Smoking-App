@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="145dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/menu_komuniti_btn"
+                android:layout_gravity="center"
+                android:layout_width="299dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/komuniti_btn" />
+
+            <Button
+                android:id="@+id/menu_audio_btn"
+                android:layout_gravity="center"
+                android:layout_width="299dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/audio_btn" />
+
+            <Button
+                android:id="@+id/menu_dapatkan_bantuan_btn"
+                android:layout_gravity="center"
+                android:layout_width="299dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/dapatkan_bantuan_btn" />
+
+            <Button
+                android:id="@+id/menu_diari_henti_rokok_btn"
+                android:layout_gravity="center"
+                android:layout_width="299dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/diari_henti_rokok_btn" />
+
+            <Button
+                android:id="@+id/motivasi_btn"
+                android:layout_gravity="center"
+                android:layout_width="299dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/motivasi_btn" />
+
+            <Button
+                android:id="@+id/peringatan_btn"
+                android:layout_gravity="center"
+                android:layout_width="299dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="70dp"
+                android:layout_marginEnd="8dp"
+                android:background="@drawable/peringatan_btn" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="\n\n\n\n"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

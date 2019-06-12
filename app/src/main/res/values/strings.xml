@@ -1,0 +1,168 @@
+<resources>
+    <string name="app_name">Aplikasi Henti Rokok</string>
+    <string name="prompt_email">E-Mel</string>
+    <string name="prompt_username">Name Pengguna</string>
+    <string name="prompt_password">Kata Laluan</string>
+    <string name="prompt_password_again">Sahkan Kata Laluan</string>
+    <string name="prompt_msg">Taip mesej</string>
+    <string name="action_sign_in">Log masuk atau Daftar masuk</string>
+    <string name="action_register">Daftar</string>
+    <string name="action_sign_in_short">Log masuk</string>
+    <string name="action_sign_up">Daftar masuk</string>
+    <string name="action_send">Hantar</string>
+    <string name="error_invalid_email">Emel ini tidak sah</string>
+    <string name="error_invalid_password">Kata laluan terlalu pendek atau tidak sepadan</string>
+    <string name="error_incorrect_password">Kata laluan salah</string>
+    <string name="error_field_required">Sila isi bahagian ini</string>
+    <string name="permission_rationale">"Kebenaran kenalan diperlukan untuk e-mel ini"</string>
+    <string name="sample_message">Hai!</string>
+
+    <string name="description_app">Aplikasi Henti Rokok</string>
+    <string name="navigation_drawer_open">Buka laci navigasi</string>
+    <string name="navigation_drawer_close">Tutup laci navigasi</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <!--<string name="hello_blank_fragment">Hello fragment kosong</string>-->
+    <string name="info_codingi">Masa terbaik untuk berhenti merokok adalah sewaktu kali pertama anda merokok,\nmasa kedua terbaik adalah sekarang</string>
+    <string name="title_activity_main_notes">Diari Henti Rokok</string>
+    <string name="title_activity_edit_note">Entri Baru</string>
+
+    <string name="app_intro_skip_button">Langkau</string>
+    <string name="app_intro_next_button">Seterusnya</string>
+    <string name="app_intro_back_button">Kembali</string>
+    <string name="app_intro_done_button">Selesai</string>
+    <string name="title_activity_kkparit_raja_maps">Map</string>
+    <string name="title_activity_hospital_batu_pahat_maps">Map</string>
+    <string name="title_activity_hospital_alor_setar_maps">Map</string>
+    <string name="title_activity_hospital_kuala_lumpur_maps">Map</string>
+    <string name="title_activity_kksri_gading_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gebang2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</string>
+
+    <string name="Ketahui_sebab_anda_mahu_berhenti">\n\nKetahui sebab anda mahu berhenti?</string>
+    <string name="anda_terfikir_untuk_berhenti_merokok_adakah_anda_tahu_sebab_sebab_anda_mahu_berhenti_adakah_anda_mahu_menjadi_lebih_sihat_jimat_wang_pastikan_keluarga_sihat_atau_semua_sekali">\nAnda terfikir untuk berhenti merokok. Adakah anda tahu sebab-sebab anda mahu berhenti? Adakah anda mahu menjadi lebih sihat? Jimat wang? Pastikan keluarga sihat? Atau semua sekali?</string>
+    <string name="mengapa_perlu_berhenti_txt_1">\n\nJika anda tidak pasti, tanya diri anda soalan berikut:\n\n
+
+Apa yang saya tidak suka tentang merokok?\n
+Apa yang saya tidak dapat buat ketika saya merokok?\n
+Bagaimana merokok menjejaskan kesihatan saya?\n
+Apa yang akan berlaku kepada saya dan keluarga saya kalau saya terus merokok?\n
+Adakah hidup saya akan menjadi lebih baik apabila saya berhenti?\n
+Sebaik sahaja anda tahu alasan anda untuk berhenti, ingatkan diri anda setiap hari. Ia boleh memberi inspirasi kepada anda untuk berhenti merokok dengan baik.</string>
+    <string name="mengapa_perlu_berhenti_header_1">\nIngin dilihat dan merasa lebih sihat?</string>
+    <string name="mengapa_perlu_berhenti_txt_2">\nBerikut adalah beberapa sebab untuk saya berhenti merokok.\n\n
+
+Kemungkinan saya mendapat kanser, serangan jantung, penyakit jantung, strok, katarak, dan penyakit lain akan turun.\n
+Saya akan kurang cenderung untuk selsema  dan akan dapat pulih lebih cepat jika saya sakit.\n
+Saya akan bernafas lebih mudah dan kurang batuk.\n
+Tekanan darah saya akan terkawal.\n
+Kulit saya akan kelihatan lebih sihat dan saya akan kelihatan lebih muda.\n
+Gigi dan kuku saya tidak akan berwarna.</string>
+    <string name="mengapa_perlu_berhenti_header_2">\nIngin gaya hidup yang lebih baik?</string>
+    <string name="mengapa_perlu_berhenti_txt_3">\nSaya akan mempunyai lebih banyak duit untuk dibelanjakan.\n
+
+Saya boleh menghabiskan lebih banyak masa dengan keluarga, fokus dalam pekerjaan, atau mencari hobi baru.\n
+Saya tidak perlu risau apabila saya boleh merokok selepas ini atau di mana saya boleh atau tidak boleh merokok.\n
+Makanan saya akan terasa lebih lazat.\n
+Pakaian saya akan berbau lebih baik.\n
+Kereta saya, rumah, dan anak-anak tidak akan berbau seperti asap.\n
+Saya akan dapat bau makanan, bunga, dan lain-lain bau dengan lebih baik.\n</string>
+
+    <string name="mengapa_perlu_berhenti_header_3">\nMahu kehidupan keluarga yang lebih baik?</string>
+    <string name="mengapa_perlu_berhenti_txt_4">\nSaya akan memberikan contoh yang baik untuk anak-anak saya kerana ia memerlukan banyak kekuatan untuk berhenti.\n
+
+Rakan-rakan saya, keluarga, rakan sekerja dan orang-orang yang tersayang akan berbangga dengan saya.\n
+Saya akan melindungi rakan-rakan dan keluarga saya dari bahaya asap rokok.\n
+Anak-anak saya akan lebih sihat.\n
+Saya akan mempunyai lebih banyak tenaga untuk melakukan perkara-perkara yang saya suka dengan rakan dan keluarga.\n
+Saya akan sihat untuk memastikan saya bersama-sama berkongsi detik-detik istimewa keluarga saya.</string>
+
+    <string name="mengapa_perlu_berhenti_txt_5">\nBuat senarai semua sebab yang anda mahu bebas rokok.\n
+
+        Simpan senarai di tempat yang sering anda lihat, seperti kereta anda atau di mana anda digunakan untuk menyimpan rokok anda.\n
+        Apabila anda merasakan keinginan untuk merokok, lihat senarai untuk mengingatkan diri anda mengapa anda mahu berhenti.\n\n</string>
+
+    <string name="mengapa_ia_sangat_sukar_txt_1">\n\nSalah satu langkah pertama untuk berhenti merokok adalah mengetahui mengapa anda merasakan anda perlu merokok.\n
+        Setelah anda memahami mengapa anda merokok, anda boleh mempersiapkan diri untuk mencari cara terbaik untuk berhenti.</string>
+
+    <string name="mengapa_ia_sangat_sukar_txt_2">\n\nSalah satu langkah pertama untuk berhenti merokok adalah mengetahui mengapa anda merasakan anda perlu merokok.\n
+        Setelah anda memahami mengapa anda merokok, anda boleh mempersiapkan diri untuk mencari cara terbaik untuk berhenti.</string>
+
+    <string name="mengapa_ia_sangat_sukar_txt_3">\nSalah satu sebab utama anda terus merokok adalah nikotin.\n
+Nikotin adalah bahan kimia dalam rokok yang membuat anda ketagih merokok.\n
+Lama kelamaan, badan anda terbiasa dalam keadaan untuk mempunyai nikotin.\n
+Semakin anda merokok, semakin banyak nikotin yang anda perlukan untuk perlu berasa normal semula.\n
+Apabila badan anda tidak mendapat nikotin, anda mungkin merasa keinginan untuk merokok dan perasaan yang sangat tidak selesa.</string>
+
+    <string name="mengapa_ia_sangat_sukar_txt_4">\nAktiviti, perasaan, dan orang-orang sekeling menjadi punca keinginan untuk merokok semula.\n
+        Ini mungkin "mencetuskan" keinginan anda untuk merokok.\n
+        Cuba untuk menjangkakan pencetus merokok ini dan cari cara untuk menangani mereka.\n
+        Pergi ke tempat yang tidak membenarkan merokok.\n
+        Kedai-kedai, pawagam, dan banyak restoran kini menjadi bebas rokok.\n
+        Luangkan lebih banyak masa dengan bukan perokok.\n
+        Anda tidak mahu merokok jika anda berada di sekeliling orang yang tidak merokok.\n
+        Pastikan tangan anda sibuk.\n
+        Mainkan permainan di telefon anda.\n
+        Makan snek yang sihat atau tekan bola tekanan.\n
+        Tarik nafas panjang.\n
+        Ingatkan diri sendiri mengapa anda mahu berhenti merokok.\n
+        Fikirkan orang dalam hidup anda yang akan lebih bahagia dan sihat kerana keputusan anda untuk berhenti merokok\n.</string>
+
+    <string name="persediaan_untuk_berhenti_txt_1">\nTetapkan Tarikh Berhenti Anda - Langkah pertama untuk  bebas rokok ialah memilih bila anda ingin berhenti.\n
+Berikut adalah beberapa tip untuk membantu anda memilih tarikh berhenti.\n
+Berikan masa untuk bersedia kepada diri anda. Jangan terlalu lama bersedia.\n
+Memilih tarikh terlalu jauh memberi anda masa untuk mengubah fikiran seterusnya hilang motivasi.\n
+Pilih tarikh yang tidak melebihi satu atau dua minggu.</string>
+
+    <string name="persediaan_untuk_berhenti_txt_2">\nSebelum anda benar-benar berhenti, penting untuk mengetahui mengapa anda melakukannya.\n
+Jika anda tidak pasti, tanya diri anda soalan berikut:\n
+Apa yang saya tidak suka tentang merokok?\n
+Bagaimanakah merokok menjejaskan kesihatan saya?\n
+Apa yang akan berlaku kepada saya dan keluarga saya jika saya terus merokok?\n
+Bagaimanakah hidup saya menjadi lebih baik apabila saya berhenti?</string>
+
+    <string name="persediaan_untuk_berhenti_txt_3">\nPencetus adalah orang, tempat, atau aktiviti yang membuatkan anda berasa mahu merokok.\n
+Mengetahui pencetus merokok boleh membantu anda belajar menanganinya.\n
+Gian pula hanya sekejap kesannya tetapi membuatkan diri sangat tidak selesa melainkan mendapat rokok.\n
+Ia biasanya hanya bertahan beberapa minit.\nBuat perancangan dan senarai aktiviti pendek yang boleh anda lakukan apabila anda mahu merokok.\n\n</string>
+
+    <string name="tidak_kembali_merokok_semula_txt_1">\nJika anda kembali merokok semula, anda mungkin boleh mencuba cara ini.\n\n\n
+Kembali merokok semula adalah biasa jadi jangan terlalu sedih pada diri sendiri.\n\n
+Kembali merokok semula tidak menjadikan anda gagal.\n\n
+Rasa bangga apabila anda berjaya bertahan tanpa merokok.\n\n
+Fikirkan cara anda untuk mengelakkan pencetus dan gian.\n\n
+Adalah penting untuk anda tidak merokok semula dengan segera.\n\n
+Jangan menyerah kalah sama sekali.\n\n
+Sekiranya berhenti selama-lamanya seolah-olah terlalu susah buat masa sekarang, anda boleh mencuba Amalan Berhenti selama beberapa hari atau melakukan seminggu Cabaran harian tanpa berhenti.\n\n
+Dapatkan sokongan.\n\n
+Jika anda kembali merokok semula, bercakap dengan keluarga atau rakan-rakan. Minta bantuan mereka untuk kekal tidak merokok.\n\n
+Anda tidak perlu melakukannya sendiri.\n\n
+Fikirkan tentang apa yang anda pelajari ketika anda tidak merokok. Apa yang membantu anda untuk terus merokok dan apa yang menyebabkan anda mempunyai kembali merokok semula?\n\n
+ Apa yang boleh anda lakukan dengan cara yang berbeza sekarang untuk membantu diri anda menjadi bebas rokok semula?\n\n</string>
+
+    <string name="kenali_tanda_kemurungan_txt_1">\nPerubahan mood adalah perkara biasa selepas berhenti merokok.\n\nSesetengah orang berasa kesedihan yang teruk.\n\n
+Anda mungkin berasa marah dan resah.\n\n
+Perubahan mood daripada berhenti merokok mungkin sebahagian tindak balas badan kerana pembiasaan diri dalam keadaan tanpa nikotin.\n\n
+Perubahan mood kerana pembiasaan diri dalam keadaan tanpa nikotin biasanya menjadi lebih baik dalam seminggu atau dua minggu.\n\n
+Jika perubahan mood tidak lebih baik dalam beberapa minggu, anda perlu berbincang dengan doktor anda.\n\n</string>
+
+
+
+    <string name="hospital_alor_setar_txt_1">\nAlamat\nKlinik Kesihatan Senggarang\n
+5, Batu Pahat, 83200 Senggarang,\n
+Johor\n
+Malaysia\n</string>
+
+    <string name="hospital_batu_pahat_txt_1">\nSejarah Hospital Batu Pahat bermula pada tahun 1894 dimana hospital ini telah ditempatkan di sebuah bangunan di Simpang Rantai ketika Bandar Penggaram dibuka pada sekitar tahun 1894. Hospital ini telah memberikan perkhidmatan kesihatan asas. Dengan perkenan Duli Yang Maha Mulia Sultan Ibrahim Ibni Almarhum Sultan Iskandar, Sultan Johor, bangunan baru Hospital Batu Pahat dirasmikan oleh Yang Amat Mulia Tunku Puan Nora Binti Almarhum Tunku Panglima Raja Ahmad sekaligus menamakan Hospital Batu Pahat sebagai Hospital Sultanah Nora Ismail.</string>
+
+    <string name="hospital_batu_pahat_txt_2">Alamat\n\nHospital Batu Pahat\nJalan Kurma,\nTaman Soga,\n83000 Batu Pahat\nJohor Darul Takzim\nMalaysia\n</string>
+
+    <string name="hospital_kuala_lumpur_txt_1">Alamat\n\nKlinik Kesihatan Rengit\nRengit, 83100 Rengit, Johor\nMalaysia\n</string>
+
+    <string name="utama_text_1">Selamat datang ke Aplikasi Henti Rokok</string>
+
+
+</resources>

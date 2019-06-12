@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="145dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="@string/Ketahui_sebab_anda_mahu_berhenti"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="24sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="@string/anda_terfikir_untuk_berhenti_merokok_adakah_anda_tahu_sebab_sebab_anda_mahu_berhenti_adakah_anda_mahu_menjadi_lebih_sihat_jimat_wang_pastikan_keluarga_sihat_atau_semua_sekali"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+                android:id="@+id/layout_ripplepulse_1"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                app:duration="2000"
+                app:endRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#880e4f"
+                app:rippleType="fill"
+                app:startRadius="42dp"
+                app:strokeWidth="20dp">
+
+
+                <Button
+                    android:id="@+id/mengapa_perlu_berhenti_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/mengapa_perlu_berhenti_btn" />
+
+            </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="Mengapa berhenti merokok itu susah"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="\nRamai bekas perokok mengatakan berhenti merokok adalah perkara paling sukar yang pernah mereka lakukan dalam hidup ini. Namun mereka berjaya melakukannya.
+                \nKetahui mengapa ia sukar."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+                android:id="@+id/layout_ripplepulse_2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                app:duration="2000"
+                app:endRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#536dfe"
+                app:rippleType="fill"
+                app:startRadius="42dp"
+                app:strokeWidth="20dp">
+
+
+                <Button
+                    android:id="@+id/mengapa_ia_sangat_sukar_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/mengapa_ia_sangat_sukar_btn" />
+
+            </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="Persediaan untuk berhenti"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="\nBerhenti merokok sangat sukar. Tetapi  boleh menjadi  mudah jika anda sudah mempunyai perancangan. "
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+                android:id="@+id/layout_ripplepulse_3"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                app:duration="2000"
+                app:endRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#1b5e20"
+                app:rippleType="fill"
+                app:startRadius="42dp"
+                app:strokeWidth="20dp">
+
+
+                <Button
+                    android:id="@+id/persediaan_untuk_berhenti_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/persediaan_untuk_berhenti_btn" />
+
+            </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="Tidak kembali merokok semula"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="\nApabila perokok sudah bertekad untuk berhenti merokok. Seringkali mereka kembali merokok satu atau dua rokok semasa mereka berhenti merokok. Jangan risau, ini kerana kembali merokok satu atau dua batang rokok adalah proses untuk berhenti merokok secara sepenuhnya."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+                android:id="@+id/layout_ripplepulse_4"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                app:duration="2000"
+                app:endRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#bf360c"
+                app:rippleType="fill"
+                app:startRadius="42dp"
+                app:strokeWidth="20dp">
+
+
+                <Button
+                    android:id="@+id/tidak_kembali_merokok_semula_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/tidak_kembali_merokok_btn" />
+
+            </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentStart="true"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="Merokok dan Kemurungan"
+                android:textAlignment="center"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="\nPerokok lebih cenderung mengalami kemurungan daripada bukan perokok.\nPerokok mungkin merokok untuk menghilangkan kemurungan.\nPerokok mungkin mengalami kemurungan dengan lebih mudah kerana mereka merokok.\nTidak kira apa sebabnya, ada cara untuk mengatasi kedua-dua kemurungan dan merokok."
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+            <com.gauravbhola.ripplepulsebackground.RipplePulseLayout
+                android:id="@+id/layout_ripplepulse_5"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:clipChildren="false"
+                app:duration="2000"
+                app:endRadius="100dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:rippleColor="#3e2723"
+                app:rippleType="fill"
+                app:startRadius="42dp"
+                app:strokeWidth="20dp">
+
+
+                <Button
+                    android:id="@+id/kenali_tanda_kemurungan_btn"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/kenali_tanda_kemurungan_btn" />
+
+            </com.gauravbhola.ripplepulsebackground.RipplePulseLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_medium_italic"
+                android:text="\n\n\n"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</android.support.constraint.ConstraintLayout>

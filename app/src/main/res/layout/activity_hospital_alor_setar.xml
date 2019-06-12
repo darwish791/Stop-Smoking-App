@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HospitalAlorSetarActivity"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/hospital_alor_setar_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:titleTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.hanks.htextview.line.LineTextView
+        android:id="@+id/text_view_line"
+        android:layout_width="wrap_content"
+        android:layout_height="98dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text=""
+        android:textSize="30sp"
+        app:animationDuration="1000"
+        app:lineColor="#1367bc"
+        app:lineWidth="4dp" />
+/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:srcCompat="@drawable/kk_senggarang" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MA Hj Mahidin Yam\nMA Mohd Nasir B Ahmad\n07-4291015"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/hospital_alor_setar_txt_1"
+        android:textAlignment="viewStart"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <Button
+        android:id="@+id/alor_setar_maps_btn"
+        android:layout_width="81dp"
+        android:layout_height="80dp"
+        android:layout_gravity="end|bottom"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/ic_location_merah" />
+
+
+
+
+
+</LinearLayout>
